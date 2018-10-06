@@ -1,0 +1,115 @@
+.bg-primary {
+  background-color: #E6CCBE !important;
+}
+
+
+a {
+  color: #a07178;
+  &:hover,
+  &:focus,
+  &:active {
+    color: #383F51;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #383F51;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+	color: #A07178;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover {
+	color: #383F51;
+}
+
+.bg-dark {
+	background-color: #383F51;
+}
+
+.text-primary {
+	color: #A07178 !important;
+}
+
+@media (max-width: 768px) {
+	#education {
+		background-position: center;
+	}
+}
+
+#education {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/ou.png");
+
+}
+
+
+
+#interests {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../img/pittsburgh.jpg");
+}
+
+#sideNav .navbar-brand .img-profile {
+	border: .5rem solid #383F51;
+}
+
+#top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #383F51;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#top i{
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#top:hover{
+    opacity: .9;
+}
+#top:hover i{
+    color: #fff;
+    top: 5px;
+}
+.header {
+		padding: 5em 1em;
+}
+@media (min-width: 992px) {
+	#sideNav .navbar-brand {
+		margin: 2.5em 0px 0px 0px;
+	}
+	.header {
+		padding: 6.5em 3em;
+	}
+}
+
+.resume-date {
+	color: #E6CCBE;
+}
